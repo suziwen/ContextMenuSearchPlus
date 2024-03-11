@@ -14,5 +14,5 @@
    "name": "Context Menu Search Plus",
    "options_page": "options.html",
    "permissions": [ "contextMenus", "tabs", "storage" ],
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
