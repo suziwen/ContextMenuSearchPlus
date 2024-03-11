@@ -87,7 +87,7 @@ export const updateMenu = async function ()
 	{
 		if(_all[i][3]){
 			chrome.contextMenus.create({
-        "id": _all[i][0],
+        "id": _all[i][0] + '',
         "title": _all[i][1],
         "contexts":["selection"]
       });
