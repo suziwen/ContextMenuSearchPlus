@@ -1,0 +1,7 @@
+/* theme screen stylesheets */
+
+/* import stylesheets and hide from ie/mac \*/
+@import url("reset.css");
+@import url("sweetalert2.min.css");
+@import url("KIS.css");
+/* end import/hide */

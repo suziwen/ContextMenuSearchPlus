@@ -1,0 +1,18 @@
+{
+   "background": {
+      "type": "module",
+      "service_worker": "js/background.js"
+   },
+   "description": "Use the right-click menu to search for selected text in different search engines",
+   "icons": {
+      "128": "images/ico128.png",
+      "16": "images/ico16.png",
+      "48": "images/ico48.png"
+   },
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Context Menu Search Plus",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "storage" ],
+   "version": "1.0.0"
+}
